@@ -1,0 +1,31 @@
+{
+  "name": "graphql-typescript-tutorial",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "npm run serve",
+    "serve": "node dist/index.js",
+    "watch-node": "nodemon dist/index.js",
+    "build-ts": "tsc",
+    "watch-ts": "tsc -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "typescript",
+    "graphql",
+    "node"
+  ],
+  "author": "Valerii Burlaka",
+  "license": "ISC",
+  "dependencies": {
+    "@typegoose/typegoose": "^7.4.1",
+    "apollo-server-express": "^2.18.2",
+    "class-validator": "^0.12.2",
+    "express": "^4.17.1",
+    "graphql": "^15.3.0",
+    "mongoose": "^5.10.10",
+    "reflect-metadata": "^0.1.13",
+    "type-graphql": "^1.1.0"
+  }
+}
